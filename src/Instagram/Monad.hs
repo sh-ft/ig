@@ -69,7 +69,7 @@ import Data.Time.Clock.POSIX (POSIXTime)
 import Control.Monad.IO.Class (liftIO)
 import Data.Conduit.Binary (sinkHandle)
 import System.IO (stdout)
-import Data.Conduit.Util (zipSinks)
+import Data.Conduit.Internal (zipSinks)
 #endif
 
 -- | the instagram monad transformer
